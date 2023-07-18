@@ -1,1 +1,84 @@
- 
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+
+ .nav-container{
+    display: flex;
+    align-items: center;
+    height:130px;
+    width: 1920px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05); 
+    justify-content: space-around;
+    margin: 0px auto;  
+}
+.icon-game{
+    height: 40px;
+    
+}
+.nav-game-logo-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.title-discrib{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.primary-text-colour{
+    color: #FF42A5;
+}
+.nav-menus a{
+    text-decoration: none;
+    gap: 20px;
+}
+.follow-button{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10); 
+    padding: 10px 25px;
+ }
+.nav-menus{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-menus-text{
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    gap: 10px;
+}
+.fa-brands{
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+
+
+ @media  screen and (max-width: 425px) {
+    .nav-container{
+        flex-direction: column;
+        height: 320px;  
+    }
+    .nav-menus{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .nav-menus-text{
+        margin-top: 30px;
+    }
+ }
+  
+
+
+
+
